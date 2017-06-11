@@ -40,6 +40,8 @@
 		48BA35EE1EECE69A001B4A7C /* JobEntity+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JobEntity+CoreDataClass.m"; sourceTree = "<group>"; };
 		48BA35EF1EECE69A001B4A7C /* JobEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JobEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
 		48BA35F01EECE69A001B4A7C /* JobEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JobEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		48BA35F41EECE814001B4A7C /* DPHandlesContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandlesContainer.h; sourceTree = "<group>"; };
+		48BA35F51EECE87B001B4A7C /* DPHandlesJobEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandlesJobEntity.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,8 @@
 				48BA35DE1EECDFC5001B4A7C /* Info.plist */,
 				48BA35D61EECDFC5001B4A7C /* JobAssignment.xcdatamodeld */,
 				48BA35CA1EECDFC5001B4A7C /* Supporting Files */,
+				48BA35F41EECE814001B4A7C /* DPHandlesContainer.h */,
+				48BA35F51EECE87B001B4A7C /* DPHandlesJobEntity.h */,
 			);
 			path = JobAssignment;
 			sourceTree = "<group>";
