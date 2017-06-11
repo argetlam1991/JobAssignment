@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *jobEntityTitle;
 @property (nonatomic) double jobEntityEstimatedTime;
 @property (nullable, nonatomic, copy) NSString *jobEntityAssignee;
+@property (nullable, nonatomic, copy) NSString *jobEntityDescription;
 
 @end
 

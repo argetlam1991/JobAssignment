@@ -18,6 +18,7 @@
 		48BA35EC1EECE3A6001B4A7C /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA35EB1EECE3A6001B4A7C /* EditorViewController.m */; };
 		48BA35F11EECE69A001B4A7C /* JobEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA35EE1EECE69A001B4A7C /* JobEntity+CoreDataClass.m */; };
 		48BA35F21EECE69A001B4A7C /* JobEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA35F01EECE69A001B4A7C /* JobEntity+CoreDataProperties.m */; };
+		48BA35F81EECEE57001B4A7C /* JobTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA35F71EECEE57001B4A7C /* JobTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		48BA35F01EECE69A001B4A7C /* JobEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JobEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
 		48BA35F41EECE814001B4A7C /* DPHandlesContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandlesContainer.h; sourceTree = "<group>"; };
 		48BA35F51EECE87B001B4A7C /* DPHandlesJobEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandlesJobEntity.h; sourceTree = "<group>"; };
+		48BA35F61EECEE57001B4A7C /* JobTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobTableViewCell.h; sourceTree = "<group>"; };
+		48BA35F71EECEE57001B4A7C /* JobTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				48BA35CD1EECDFC5001B4A7C /* AppDelegate.h */,
 				48BA35CE1EECDFC5001B4A7C /* AppDelegate.m */,
 				48BA35D31EECDFC5001B4A7C /* Main.storyboard */,
+				48BA35F61EECEE57001B4A7C /* JobTableViewCell.h */,
+				48BA35F71EECEE57001B4A7C /* JobTableViewCell.m */,
 				48BA35EA1EECE3A6001B4A7C /* EditorViewController.h */,
 				48BA35EB1EECE3A6001B4A7C /* EditorViewController.m */,
 				48BA35E71EECE35F001B4A7C /* JobAssignmentTableViewController.h */,
@@ -180,6 +185,7 @@
 			files = (
 				48BA35CF1EECDFC5001B4A7C /* AppDelegate.m in Sources */,
 				48BA35EC1EECE3A6001B4A7C /* EditorViewController.m in Sources */,
+				48BA35F81EECEE57001B4A7C /* JobTableViewCell.m in Sources */,
 				48BA35D81EECDFC5001B4A7C /* JobAssignment.xcdatamodeld in Sources */,
 				48BA35E91EECE35F001B4A7C /* JobAssignmentTableViewController.m in Sources */,
 				48BA35F21EECE69A001B4A7C /* JobEntity+CoreDataProperties.m in Sources */,

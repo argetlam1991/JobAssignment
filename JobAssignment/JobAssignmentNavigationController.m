@@ -10,18 +10,16 @@
 
 @interface JobAssignmentNavigationController ()
 
+@property (strong, nonatomic) NSPersistentContainer *container;
+
 @end
 
 @implementation JobAssignmentNavigationController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) receiveIncomingContainer:(NSPersistentContainer *)incomingContainer {
+  self.container = incomingContainer;
+  id<DPHandlesContainer> child = (id<DPHandlesContainer>) self.viewControllers[0];
+  [child receiveIncomingContainer:self.container];
 }
 
 /*

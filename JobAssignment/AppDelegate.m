@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DPHandlesContainer.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // Override point for customization after application launch.
+  id<DPHandlesContainer> child = (id<DPHandlesContainer>)self.window.rootViewController;
+  [child receiveIncomingContainer: self.persistentContainer];
   return YES;
 }
 

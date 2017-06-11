@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DPHandlesContainer.h"
 
-@interface JobAssignmentTableViewController : UITableViewController
+@interface JobAssignmentTableViewController : UITableViewController <DPHandlesContainer>
+
+- (void) receiveIncomingContainer:(NSPersistentContainer *)incomingContainer;
 
 @end

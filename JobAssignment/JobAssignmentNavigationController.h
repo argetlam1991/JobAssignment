@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DPHandlesContainer.h"
+@interface JobAssignmentNavigationController : UINavigationController <DPHandlesContainer>
 
-@interface JobAssignmentNavigationController : UINavigationController
+- (void) receiveIncomingContainer:(NSPersistentContainer *)incomingContainer;
 
 @end

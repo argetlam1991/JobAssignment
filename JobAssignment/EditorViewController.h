@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DPHandlesContainer.h"
+#import "DPHandlesJobEntity.h"
+#import "JobEntity+CoreDataClass.h"
 
-@interface EditorViewController : UIViewController
+@interface EditorViewController : UIViewController <DPHandlesContainer, DPHandlesJobEntity>
+- (void) receiveIncomingContainer:(NSPersistentContainer *)incomingContainer;
+- (void) receivceToDoEntity:(JobEntity *)incomingJobEntity;
 
 @end

@@ -17,5 +17,6 @@
 @dynamic jobEntityTitle;
 @dynamic jobEntityEstimatedTime;
 @dynamic jobEntityAssignee;
+@dynamic jobEntityDescription;
 
 @end

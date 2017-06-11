@@ -11,6 +11,6 @@
 
 @protocol DPHandlesContainer <NSObject>
 
-- (void) receive: (NSPersistentContainer *) incomingContainer;
+- (void) receiveIncomingContainer: (NSPersistentContainer *) incomingContainer;
 
 @end
