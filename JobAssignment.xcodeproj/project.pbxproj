@@ -13,6 +13,11 @@
 		48BA35D81EECDFC5001B4A7C /* JobAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48BA35D61EECDFC5001B4A7C /* JobAssignment.xcdatamodeld */; };
 		48BA35DA1EECDFC5001B4A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48BA35D91EECDFC5001B4A7C /* Assets.xcassets */; };
 		48BA35DD1EECDFC5001B4A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BA35DB1EECDFC5001B4A7C /* LaunchScreen.storyboard */; };
+		48BA35E61EECE31A001B4A7C /* JobAssignmentNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA35E51EECE31A001B4A7C /* JobAssignmentNavigationController.m */; };
+		48BA35E91EECE35F001B4A7C /* JobAssignmentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA35E81EECE35F001B4A7C /* JobAssignmentTableViewController.m */; };
+		48BA35EC1EECE3A6001B4A7C /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA35EB1EECE3A6001B4A7C /* EditorViewController.m */; };
+		48BA35F11EECE69A001B4A7C /* JobEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA35EE1EECE69A001B4A7C /* JobEntity+CoreDataClass.m */; };
+		48BA35F21EECE69A001B4A7C /* JobEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA35F01EECE69A001B4A7C /* JobEntity+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,16 @@
 		48BA35D91EECDFC5001B4A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48BA35DC1EECDFC5001B4A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48BA35DE1EECDFC5001B4A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48BA35E41EECE31A001B4A7C /* JobAssignmentNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobAssignmentNavigationController.h; sourceTree = "<group>"; };
+		48BA35E51EECE31A001B4A7C /* JobAssignmentNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobAssignmentNavigationController.m; sourceTree = "<group>"; };
+		48BA35E71EECE35F001B4A7C /* JobAssignmentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobAssignmentTableViewController.h; sourceTree = "<group>"; };
+		48BA35E81EECE35F001B4A7C /* JobAssignmentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobAssignmentTableViewController.m; sourceTree = "<group>"; };
+		48BA35EA1EECE3A6001B4A7C /* EditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorViewController.h; sourceTree = "<group>"; };
+		48BA35EB1EECE3A6001B4A7C /* EditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorViewController.m; sourceTree = "<group>"; };
+		48BA35ED1EECE69A001B4A7C /* JobEntity+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JobEntity+CoreDataClass.h"; sourceTree = "<group>"; };
+		48BA35EE1EECE69A001B4A7C /* JobEntity+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JobEntity+CoreDataClass.m"; sourceTree = "<group>"; };
+		48BA35EF1EECE69A001B4A7C /* JobEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JobEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		48BA35F01EECE69A001B4A7C /* JobEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JobEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +56,10 @@
 		48BA35BE1EECDFC5001B4A7C = {
 			isa = PBXGroup;
 			children = (
+				48BA35ED1EECE69A001B4A7C /* JobEntity+CoreDataClass.h */,
+				48BA35EE1EECE69A001B4A7C /* JobEntity+CoreDataClass.m */,
+				48BA35EF1EECE69A001B4A7C /* JobEntity+CoreDataProperties.h */,
+				48BA35F01EECE69A001B4A7C /* JobEntity+CoreDataProperties.m */,
 				48BA35C91EECDFC5001B4A7C /* JobAssignment */,
 				48BA35C81EECDFC5001B4A7C /* Products */,
 			);
@@ -60,6 +79,12 @@
 				48BA35CD1EECDFC5001B4A7C /* AppDelegate.h */,
 				48BA35CE1EECDFC5001B4A7C /* AppDelegate.m */,
 				48BA35D31EECDFC5001B4A7C /* Main.storyboard */,
+				48BA35EA1EECE3A6001B4A7C /* EditorViewController.h */,
+				48BA35EB1EECE3A6001B4A7C /* EditorViewController.m */,
+				48BA35E71EECE35F001B4A7C /* JobAssignmentTableViewController.h */,
+				48BA35E81EECE35F001B4A7C /* JobAssignmentTableViewController.m */,
+				48BA35E41EECE31A001B4A7C /* JobAssignmentNavigationController.h */,
+				48BA35E51EECE31A001B4A7C /* JobAssignmentNavigationController.m */,
 				48BA35D91EECDFC5001B4A7C /* Assets.xcassets */,
 				48BA35DB1EECDFC5001B4A7C /* LaunchScreen.storyboard */,
 				48BA35DE1EECDFC5001B4A7C /* Info.plist */,
@@ -150,7 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				48BA35CF1EECDFC5001B4A7C /* AppDelegate.m in Sources */,
+				48BA35EC1EECE3A6001B4A7C /* EditorViewController.m in Sources */,
 				48BA35D81EECDFC5001B4A7C /* JobAssignment.xcdatamodeld in Sources */,
+				48BA35E91EECE35F001B4A7C /* JobAssignmentTableViewController.m in Sources */,
+				48BA35F21EECE69A001B4A7C /* JobEntity+CoreDataProperties.m in Sources */,
+				48BA35E61EECE31A001B4A7C /* JobAssignmentNavigationController.m in Sources */,
+				48BA35F11EECE69A001B4A7C /* JobEntity+CoreDataClass.m in Sources */,
 				48BA35CC1EECDFC5001B4A7C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
